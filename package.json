@@ -1,0 +1,21 @@
+{
+    "name": "ubuntu-monokai",
+    "displayName": "Ubuntu Monokai",
+    "description": "Color theme that matches Ubuntu.",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.49.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Ubuntu Monokai",
+                "uiTheme": "vs-dark",
+                "path": "./themes/ubuntu-monokai-color-theme.json"
+            }
+        ]
+    }
+}
