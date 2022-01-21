@@ -1,18 +1,12 @@
 {
     "type": "dark",
+    "$schema": "vscode://schemas/color-theme",
+    "name": "Safire Star",
+    "semanticHighlighting": true,
     "colors": {
-        "dropdown.background": "#414339",
-        "list.activeSelectionBackground": "#75715E",
-        "quickInputList.focusBackground": "#414339",
         "dropdown.listBackground": "#222222",
-        "list.inactiveSelectionBackground": "#414339",
-        "list.hoverBackground": "#3e3d32",
-        "list.dropBackground": "#414339",
-        "list.highlightForeground": "#f8f8f2",
-        "button.background": "#75715E",
         "editor.background": "#282828",
         "editor.foreground": "#f8f8f2",
-        "selection.background": "#878b9180",
         "editor.selectionHighlightBackground": "#575b6180",
         "editor.selectionBackground": "#878b9180",
         "minimap.selectionHighlight": "#878b9180",
@@ -25,26 +19,18 @@
         "editorIndentGuide.background": "#464741",
         "editorIndentGuide.activeBackground": "#767771",
         "editorGroupHeader.tabsBackground": "#222222",
-        "editorGroup.dropBackground": "#41433980",
         "tab.inactiveBackground": "#34352f",
         "tab.border": "#222222",
         "tab.inactiveForeground": "#ccccc7", // needs to be bright so it's readable when another editor group is focused
-        "tab.lastPinnedBorder": "#414339",
         "widget.shadow": "#00000098",
         "progressBar.background": "#75715E",
-        "badge.background": "#75715E",
         "badge.foreground": "#f8f8f2",
         "editorLineNumber.foreground": "#90908a",
         "panelTitle.activeForeground": "#f8f8f2",
         "panelTitle.activeBorder": "#75715E",
         "panelTitle.inactiveForeground": "#75715E",
-        "panel.border": "#414339",
-        "settings.focusedRowBackground": "#4143395A",
         "titleBar.activeBackground": "#222222",
-        "statusBar.background": "#414339",
-        "statusBar.noFolderBackground": "#414339",
         "statusBar.debuggingBackground": "#75715E",
-        "statusBarItem.remoteBackground": "#AC6218",
         "ports.iconRunningProcessForeground": "#ccccc7",
         "activityBar.background": "#282828",
         "activityBar.foreground": "#f8f8f2",
@@ -53,9 +39,7 @@
         "menu.background": "#222222",
         "menu.foreground": "#cccccc",
         "pickerGroup.foreground": "#75715E",
-        "input.background": "#414339",
         "inputOption.activeBorder": "#75715E",
-        "focusBorder": "#75715E",
         "editorWidget.background": "#222222",
         "debugToolBar.background": "#222222",
         "diffEditor.insertedTextBackground": "#4b661680", // middle of #282828 and #a6e22e
@@ -64,9 +48,7 @@
         "inputValidation.errorBorder": "#f92672",
         "inputValidation.warningBackground": "#848528", // middle of #282828 and #e2e22e
         "inputValidation.warningBorder": "#e2e22e",
-        "inputValidation.infoBackground": "#546190", // middle of #282828 and #819aff
         "inputValidation.infoBorder": "#819aff",
-        "editorHoverWidget.background": "#414339",
         "editorHoverWidget.border": "#75715E",
         "editorSuggestWidget.background": "#282828",
         "editorSuggestWidget.border": "#75715E",
@@ -75,7 +57,6 @@
         "peekViewEditor.background": "#282828",
         "peekViewResult.background": "#222222",
         "peekViewTitle.background": "#222222",
-        "peekViewResult.selectionBackground": "#414339",
         "peekViewResult.matchHighlightBackground": "#75715E",
         "peekViewEditor.matchHighlightBackground": "#75715E",
         "terminal.ansiBlack": "#333333",
@@ -93,7 +74,43 @@
         "terminal.ansiBrightBlue": "#819aff", // hue shifted #AE81FF
         "terminal.ansiBrightMagenta": "#AE81FF",
         "terminal.ansiBrightCyan": "#66D9EF",
-        "terminal.ansiBrightWhite": "#f8f8f2"
+        "terminal.ansiBrightWhite": "#f8f8f2",
+
+        "descriptionForeground":"#c72d46",
+        "editorHint.foreground":"#c72d46",
+        "statusBarItem.remoteBackground": "#c72d46",
+        "activityBarBadge.background": "#c72d46",
+        "editorOverviewRuler.infoForeground": "#c72d46",
+        "focusBorder": "#af233aff",
+        "notification.infoBackground": "#c72d46",
+        "badge.background":"#c72d46",
+        "selection.background": "#af233a88",
+
+        // this is the colors for the command pallete and sidebar selected item
+        "list.hoverBackground": "#8880af2f",
+        "list.focusBackground": "#8880af2f",
+        "list.activeSelectionBackground":"#c72d46",
+        "button.background":"#c72d46",
+        // this is the text that shows up in "Quick fix" links
+        "textLink.activeForeground":"#ff6a00",
+        "textLink.foreground":"#ff6a00",
+        "list.highlightForeground":"#ff6a00", // the text color of hints in command palette
+        "editorSuggestWidget.selectedBackground": "#65e1c760", // the color of the active code completion entry
+        "editorSuggestWidget.highlightForeground": "#ff6a00", // the color of the matching text for the code completion list.
+
+        "dropdown.background": "#47242a",
+        "quickInputList.focusBackground": "#c72d46",
+        "list.inactiveSelectionBackground": "#47242a",
+        "list.dropBackground": "#c72d46",
+        "editorGroup.dropBackground": "#41433980",
+        "tab.lastPinnedBorder": "#c72d46",
+        "panel.border": "#c72d46",
+        "settings.focusedRowBackground": "#4143395A",
+        "statusBar.background": "#c72d46",
+        "statusBar.noFolderBackground": "#c72d46",
+        "input.background": "#141414",
+        "editorHoverWidget.background": "#c72d46",
+        "peekViewResult.selectionBackground": "#c72d46",
     },
     "tokenColors": [
         {
@@ -477,5 +494,4 @@
             }
         }
     ],
-    "semanticHighlighting": true
 }
