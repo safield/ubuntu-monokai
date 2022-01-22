@@ -80,21 +80,21 @@
         "terminal.ansiBrightCyan": "#66D9EF",
         "terminal.ansiBrightWhite": "#f8f8f2",
 
-        "descriptionForeground":"#c72d46",
-        "editorHint.foreground":"#c72d46",
-        "statusBarItem.remoteBackground": "#c72d46",
-        "activityBarBadge.background": "#c72d46",
-        "editorOverviewRuler.infoForeground": "#c72d46",
+        "descriptionForeground":"#be2439",
+        "editorHint.foreground":"#be2439",
+        "statusBarItem.remoteBackground": "#be2439",
+        "activityBarBadge.background": "#be2439",
+        "editorOverviewRuler.infoForeground": "#be2439",
         "focusBorder": "#af233aff",
-        "notification.infoBackground": "#c72d46",
-        "badge.background":"#c72d46",
+        "notification.infoBackground": "#be2439",
+        "badge.background":"#be2439",
         "selection.background": "#af233a88",
 
         // this is the colors for the command pallete and sidebar selected item
         "list.hoverBackground": "#8880af2f",
         "list.focusBackground": "#8880af2f",
-        "list.activeSelectionBackground":"#c72d46",
-        "button.background":"#c72d46",
+        "list.activeSelectionBackground":"#be2439",
+        "button.background":"#be2439",
         // this is the text that shows up in "Quick fix" links
         "textLink.activeForeground":"#ff6a00",
         "textLink.foreground":"#ff6a00",
@@ -103,18 +103,18 @@
         "editorSuggestWidget.highlightForeground": "#ff6a00", // the color of the matching text for the code completion list.
 
         "dropdown.background": "#47242a",
-        "quickInputList.focusBackground": "#c72d46",
+        "quickInputList.focusBackground": "#be2439",
         "list.inactiveSelectionBackground": "#47242a",
-        "list.dropBackground": "#c72d46",
+        "list.dropBackground": "#be2439",
         "editorGroup.dropBackground": "#41433980",
-        "tab.lastPinnedBorder": "#c72d46",
-        "panel.border": "#c72d46",
+        "tab.lastPinnedBorder": "#be2439",
+        "panel.border": "#be2439",
         "settings.focusedRowBackground": "#4143395A",
-        "statusBar.background": "#c72d46",
-        "statusBar.noFolderBackground": "#c72d46",
+        "statusBar.background": "#be2439",
+        "statusBar.noFolderBackground": "#be2439",
         "input.background": "#141414",
-        "editorHoverWidget.background": "#c72d46",
-        "peekViewResult.selectionBackground": "#c72d46",
+        "editorHoverWidget.background": "#be2439",
+        "peekViewResult.selectionBackground": "#be2439",
     },
     "tokenColors": [
         {
@@ -152,7 +152,7 @@
                 "punctuation.section.embedded"
             ],
             "settings": {
-                "foreground": "#F92672"
+                "foreground": "#e92a44"
             }
         },
         {
@@ -197,7 +197,7 @@
             "name": "Keyword",
             "scope": "keyword",
             "settings": {
-                "foreground": "#F92672"
+                "foreground": "#e92a44"
             }
         },
         {
@@ -205,7 +205,7 @@
             "scope": "storage",
             "settings": {
                 "fontStyle": "",
-                "foreground": "#F92672"
+                "foreground": "#e92a44"
             }
         },
         {
@@ -253,7 +253,7 @@
             "scope": "entity.name.tag",
             "settings": {
                 "fontStyle": "",
-                "foreground": "#F92672"
+                "foreground": "#e92a44"
             }
         },
         {
@@ -328,7 +328,7 @@
             "name": "diff.deleted",
             "scope": "markup.deleted",
             "settings": {
-                "foreground": "#F92672"
+                "foreground": "#e92a44"
             }
         },
         {
@@ -361,7 +361,7 @@
             "name": "Markup Quote",
             "scope": "markup.quote",
             "settings": {
-                "foreground": "#F92672"
+                "foreground": "#e92a44"
             }
         },
         {
