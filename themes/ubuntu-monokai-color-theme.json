@@ -6,7 +6,7 @@
     "colors": {
         "dropdown.listBackground": "#222222",
         "editor.background": "#282828",
-        "editor.foreground": "#eeeeee",
+        "editor.foreground": "#dddddd",
 
         "editor.selectionBackground": "#893619",
         "editor.inactiveSelectionBackground": "#613120", // Color of the selection in an inactive editor. The color must not be opaque so as not to hide underlying decorations.
@@ -185,14 +185,6 @@
             }
         },
         {
-            "name": "Variable",
-            "scope": "variable",
-            "settings": {
-                "fontStyle": "",
-                "foreground": "#F8F8F2"
-            }
-        },
-        {
             "name": "Keyword",
             "scope": "keyword",
             "settings": {
@@ -208,27 +200,11 @@
             }
         },
         {
-            "name": "Storage type",
-            "scope": "storage.type",
-            "settings": {
-                "fontStyle": "italic",
-                "foreground": "#66D9EF"
-            }
-        },
-        {
             "name": "Function name",
             "scope": "entity.name.function",
             "settings": {
                 "fontStyle": "",
                 "foreground": "#A6E22E"
-            }
-        },
-        {
-            "name": "Function argument",
-            "scope": "variable.parameter",
-            "settings": {
-                "fontStyle": "italic",
-                "foreground": "#FD971F"
             }
         },
         {
@@ -479,6 +455,14 @@
             "settings": {
                 "foreground": "#FD971F"
             }
-        }
+        },
+        { 
+            "name": "Storage type",
+            "scope": "storage.type", // this is what decides annotation color like @override (at least in dart)
+            "settings": {
+                "fontStyle": "italic",
+                "foreground": "#FD971F"
+            }
+        },
     ],
 }
