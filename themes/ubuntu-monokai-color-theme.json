@@ -80,41 +80,40 @@
         "terminal.ansiBrightCyan": "#66D9EF",
         "terminal.ansiBrightWhite": "#f8f8f2",
 
-        "descriptionForeground":"#be2439",
-        "editorHint.foreground":"#be2439",
-        "statusBarItem.remoteBackground": "#be2439",
-        "activityBarBadge.background": "#be2439",
-        "editorOverviewRuler.infoForeground": "#be2439",
-        "focusBorder": "#af233aff",
-        "notification.infoBackground": "#be2439",
-        "badge.background":"#be2439",
+        "descriptionForeground":"#cf274b",
+        "editorHint.foreground":"#cf274b",
+        "statusBarItem.remoteBackground": "#cf274b",
+        "activityBarBadge.background": "#cf274b",
+        "editorOverviewRuler.infoForeground": "#cf274b",
+        "focusBorder": "#cf274b",
+        "badge.background":"#cf274b",
         "selection.background": "#af233a88",
 
         // this is the colors for the command pallete and sidebar selected item
-        "list.hoverBackground": "#8880af2f",
-        "list.focusBackground": "#8880af2f",
-        "list.activeSelectionBackground":"#be2439",
-        "button.background":"#be2439",
+        "list.hoverBackground": "#383838",
+        "list.focusBackground": "#361d22",
+        "list.activeSelectionBackground":"#5e1a23",
+        "list.inactiveSelectionBackground": "#421d22",
+        "button.background":"#cf274b",
         // this is the text that shows up in "Quick fix" links
-        "textLink.activeForeground":"#ff6a00",
-        "textLink.foreground":"#ff6a00",
-        "list.highlightForeground":"#ff6a00", // the text color of hints in command palette
+        "textLink.activeForeground":"#ca3958",
+        "textLink.foreground":"#ca3958",
+        "list.highlightForeground":"#ca3958", // the text color of hints in command palette
         "editorSuggestWidget.selectedBackground": "#65e1c760", // the color of the active code completion entry
         "editorSuggestWidget.highlightForeground": "#ff6a00", // the color of the matching text for the code completion list.
 
         "dropdown.background": "#47242a",
-        "quickInputList.focusBackground": "#be2439",
-        "list.inactiveSelectionBackground": "#47242a",
-        "list.dropBackground": "#be2439",
-        "editorGroup.dropBackground": "#41433980",
-        "tab.lastPinnedBorder": "#be2439",
-        "panel.border": "#be2439",
+        "quickInputList.focusBackground": "#383838", // the background of command pallete selection
+        // "list.dropBackground": "#cf274b",
+        // "editorGroup.dropBackground": "#41433980",
+        "tab.lastPinnedBorder": "#cf274b",
+        "panel.border": "#cf274b",
         "settings.focusedRowBackground": "#4143395A",
-        "statusBar.background": "#be2439",
-        "statusBar.noFolderBackground": "#be2439",
+        "statusBar.background": "#cf274b",
+        "statusBar.noFolderBackground": "#cf274b",
         "input.background": "#141414",
-        "editorHoverWidget.background": "#be2439",
-        "peekViewResult.selectionBackground": "#be2439",
+        "editorHoverWidget.background": "#222222",
+        "peekViewResult.selectionBackground": "#cf274b",
     },
     "tokenColors": [
         {
