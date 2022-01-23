@@ -17,7 +17,7 @@
         "editor.wordHighlightBackground": "#ff7700",
         "editor.wordHighlightStrongBackground": "#ff7700",
         "editor.lineHighlightBackground": "#343434",
-        "editorLineNumber.activeForeground": "#cc96a4",
+        "editorLineNumber.activeForeground": "#d4d4d4",
         "editorLineNumber.foreground": "#777777",
         "editorCursor.foreground": "#df4a16",
         "editorWhitespace.foreground": "#464741",
@@ -224,8 +224,12 @@
             }
         },
         {
-            "name": "Library function",
-            "scope": "support.function",
+            "name": "Primative Type",
+            "scope": [
+                "storage.type.primitive",
+                "storage.type.java",
+                "storage.type.generic"
+            ],
             "settings": {
                 "fontStyle": "",
                 "foreground": "#7ee1f5"
