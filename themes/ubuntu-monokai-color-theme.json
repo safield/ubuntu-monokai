@@ -90,7 +90,7 @@
         "selection.background": "#af233a88",
 
         // this is the colors for the command pallete and sidebar selected item
-        "list.hoverBackground": "#383838",
+        "list.hoverBackground": "#484848",
         "list.focusBackground": "#361d22",
         "list.activeSelectionBackground":"#5e1a23",
         "list.inactiveSelectionBackground": "#421d22",
@@ -99,13 +99,13 @@
         "textLink.activeForeground":"#ca3958",
         "textLink.foreground":"#ca3958",
         "list.highlightForeground":"#ca3958", // the text color of hints in command palette
-        "editorSuggestWidget.selectedBackground": "#65e1c760", // the color of the active code completion entry
-        "editorSuggestWidget.highlightForeground": "#ff6a00", // the color of the matching text for the code completion list.
+        "editorSuggestWidget.selectedBackground": "#484848", // the color of the active code completion entry
+        "editorSuggestWidget.highlightForeground": "#e0506f", // the color of code completion popup text hints. Make theis match list.highlightForeground" but maybe a little brighter and contrasting since the text is small
 
         "dropdown.background": "#47242a",
-        "quickInputList.focusBackground": "#383838", // the background of command pallete selection
+        "quickInputList.focusBackground": "#484848", // the background of command pallete selection
         // "list.dropBackground": "#cf274b",
-        // "editorGroup.dropBackground": "#41433980",
+        // "editorGroup.dropBackground": "#41433980",co
         "tab.lastPinnedBorder": "#cf274b",
         "panel.border": "#555555",
         "settings.focusedRowBackground": "#4143395A",
