@@ -80,13 +80,13 @@
         "terminal.ansiBrightCyan": "#7ee1f5",
         "terminal.ansiBrightWhite": "#f8f8f2",
 
-        "descriptionForeground":"#cf274b",
-        "editorHint.foreground":"#cf274b",
-        "statusBarItem.remoteBackground": "#cf274b",
-        "activityBarBadge.background": "#cf274b",
-        "editorOverviewRuler.infoForeground": "#cf274b",
-        "focusBorder": "#cf274b",
-        "badge.background":"#cf274b",
+        "descriptionForeground":"#cf2742",
+        "editorHint.foreground":"#cf2742",
+        "statusBarItem.remoteBackground": "#cf2742",
+        "activityBarBadge.background": "#cf2742",
+        "editorOverviewRuler.infoForeground": "#cf2742",
+        "focusBorder": "#cf2742",
+        "badge.background":"#cf2742",
         "selection.background": "#af233a88",
 
         // this is the colors for the command pallete and sidebar selected item
@@ -94,7 +94,7 @@
         "list.focusBackground": "#361d22",
         "list.activeSelectionBackground":"#5e1a23",
         "list.inactiveSelectionBackground": "#421d22",
-        "button.background":"#cf274b",
+        "button.background":"#cf2742",
         // this is the text that shows up in "Quick fix" links
         "textLink.activeForeground":"#ca3958",
         "textLink.foreground":"#ca3958",
@@ -104,16 +104,16 @@
 
         "dropdown.background": "#47242a",
         "quickInputList.focusBackground": "#484848", // the background of command pallete selection
-        // "list.dropBackground": "#cf274b",
+        // "list.dropBackground": "#cf2742",
         // "editorGroup.dropBackground": "#41433980",co
-        "tab.lastPinnedBorder": "#cf274b",
+        "tab.lastPinnedBorder": "#cf2742",
         "panel.border": "#555555",
         "settings.focusedRowBackground": "#4143395A",
-        "statusBar.background": "#cf274b",
-        "statusBar.noFolderBackground": "#cf274b",
+        "statusBar.background": "#cf2742",
+        "statusBar.noFolderBackground": "#cf2742",
         "input.background": "#181818",
         "editorHoverWidget.background": "#222222",
-        "peekViewResult.selectionBackground": "#cf274b",
+        "peekViewResult.selectionBackground": "#cf2742",
     },
     "tokenColors": [
         {
@@ -151,7 +151,7 @@
                 "punctuation.section.embedded"
             ],
             "settings": {
-                "foreground": "#ee4c61"
+                "foreground": "#f3596e"
             }
         },
         {
@@ -188,7 +188,7 @@
             "name": "Keyword",
             "scope": "keyword",
             "settings": {
-                "foreground": "#ee4c61"
+                "foreground": "#f3596e"
             }
         },
         {
@@ -196,7 +196,7 @@
             "scope": "storage",
             "settings": {
                 "fontStyle": "",
-                "foreground": "#ee4c61"
+                "foreground": "#f3596e"
             }
         },
         {
@@ -212,7 +212,7 @@
             "scope": "entity.name.tag",
             "settings": {
                 "fontStyle": "",
-                "foreground": "#ee4c61"
+                "foreground": "#f3596e"
             }
         },
         {
@@ -291,7 +291,7 @@
             "name": "diff.deleted",
             "scope": "markup.deleted",
             "settings": {
-                "foreground": "#ee4c61"
+                "foreground": "#f3596e"
             }
         },
         {
@@ -324,7 +324,7 @@
             "name": "Markup Quote",
             "scope": "markup.quote",
             "settings": {
-                "foreground": "#ee4c61"
+                "foreground": "#f3596e"
             }
         },
         {
