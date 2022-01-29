@@ -7,7 +7,6 @@
         "dropdown.listBackground": "#222222",
         "editor.background": "#282828",
         "editor.foreground": "#dddddd",
-
         "editor.selectionBackground": "#893619",
         "editor.inactiveSelectionBackground": "#613120", // Color of the selection in an inactive editor. The color must not be opaque so as not to hide underlying decorations.
         "editor.selectionHighlightBackground": "#9b3e1daa",
@@ -114,6 +113,9 @@
         "input.background": "#181818",
         "editorHoverWidget.background": "#222222",
         "peekViewResult.selectionBackground": "#cf2742",
+        "notificationsErrorIcon.foreground": "#f3596e",
+        "notificationsWarningIcon.foreground": "#FD971F",
+        "notificationsInfoIcon.foreground": "#7ee1f5"
     },
     "tokenColors": [
         {
