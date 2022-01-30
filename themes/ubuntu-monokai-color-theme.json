@@ -115,7 +115,10 @@
         "peekViewResult.selectionBackground": "#cf2742",
         "notificationsErrorIcon.foreground": "#f3596e",
         "notificationsWarningIcon.foreground": "#FD971F",
-        "notificationsInfoIcon.foreground": "#7ee1f5"
+        "notificationsInfoIcon.foreground": "#7ee1f5",
+        "problemsErrorIcon.foreground": "#f3596e",
+        "problemsWarningIcon.foreground": "#FD971F",
+        "problemsInfoIcon.foreground": "#7ee1f5"
     },
     "tokenColors": [
         {
