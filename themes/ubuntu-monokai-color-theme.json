@@ -493,7 +493,6 @@
         { 
             "name": "Storage type",
             "scope": [
-                "storage.type", // this is what decides annotation color like @override (at least in dart)
                 "storage.type.annotation.dart",
                 "support.type",
                 "storage.type.annotation",
