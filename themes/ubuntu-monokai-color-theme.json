@@ -506,4 +506,8 @@
             }
         },
     ],
+    "semanticTokenColors": {
+        "property.declaration.static": "#FD971F",
+        "property.static": "#FD971F"
+    }
 }
