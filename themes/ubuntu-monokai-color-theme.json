@@ -127,7 +127,7 @@
                 "meta.return-type",
                 "support.class",
                 "support.type",
-                "entity.name.type",
+                // "entity.name.type", // removed so dart annotations like @override are all one color. Not sure what this breaks
                 "entity.name.namespace",
                 "entity.other.attribute",
                 "entity.name.scope-resolution",
@@ -143,7 +143,6 @@
                 "storage.type.generic.cs",
                 "storage.type.modifier.cs",
                 "storage.type.variable.cs",
-                "storage.type.annotation.java",
                 "storage.type.generic.java",
                 // "variable.other.object.java", this caused local variable references to be colored, when they shouldn't be
                 "storage.type.java",
@@ -152,7 +151,6 @@
                 "storage.type.primitive.java",
                 "storage.type.token.java",
                 "storage.type.groovy",
-                "storage.type.annotation.groovy",
                 "storage.type.parameters.groovy",
                 "storage.type.generic.groovy",
                 "storage.type.object.array.groovy",
@@ -494,7 +492,15 @@
         },
         { 
             "name": "Storage type",
-            "scope": "storage.type", // this is what decides annotation color like @override (at least in dart)
+            "scope": [
+                "storage.type", // this is what decides annotation color like @override (at least in dart)
+                "storage.type.annotation.dart",
+                "support.type",
+                "storage.type.annotation",
+                "punctuation.definition.annotation"
+                // "storage.type.annotation.java",
+                // "storage.type.annotation.groovy",
+            ],
             "settings": {
                 "fontStyle": "italic",
                 "foreground": "#FD971F"
