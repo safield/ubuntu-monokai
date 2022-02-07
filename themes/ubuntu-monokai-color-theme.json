@@ -11,11 +11,13 @@
         "editor.inactiveSelectionBackground": "#613120", // Color of the selection in an inactive editor. The color must not be opaque so as not to hide underlying decorations.
         "editor.selectionHighlightBackground": "#9b3e1daa",
         "editor.findMatchBackground":"#893619",
-        "editor.findMatchBorder":"#ef4713",
+        "editor.findMatchHighlightBackground":"#893619",
+        "editor.findMatchHighlightBorder":"#d84113",
+        "editor.findMatchBorder":"#ff9575",
         "minimap.selectionHighlight": "#b94000",
         "editor.wordHighlightBackground": "#ff7700",
         "editor.wordHighlightStrongBackground": "#ff7700",
-        "editor.lineHighlightBackground": "#343434",
+        "editor.lineHighlightBackground": "#424242",
         "editorLineNumber.activeForeground": "#d4d4d4",
         "editorLineNumber.foreground": "#777777",
         "editorCursor.foreground": "#df4a16",
@@ -74,8 +76,8 @@
         "terminal.ansiBrightRed": "#f92672",
         "terminal.ansiBrightGreen": "#b1e942",
         "terminal.ansiBrightYellow": "#e2e22e", // hue shifted #b1e942
-        "terminal.ansiBrightBlue": "#819aff", // hue shifted #AE81FF
-        "terminal.ansiBrightMagenta": "#AE81FF",
+        "terminal.ansiBrightBlue": "#819aff", // hue shifted #d177fa
+        "terminal.ansiBrightMagenta": "#d177fa",
         "terminal.ansiBrightCyan": "#7ee1f5",
         "terminal.ansiBrightWhite": "#f8f8f2",
 
@@ -108,7 +110,7 @@
         "tab.lastPinnedBorder": "#cf2742",
         "panel.border": "#555555",
         "settings.focusedRowBackground": "#4143395A",
-        "statusBar.background": "#cf2742",
+        "statusBar.background": "#282828",
         "statusBar.noFolderBackground": "#cf2742",
         "input.background": "#181818",
         "editorHoverWidget.background": "#222222",
@@ -220,21 +222,21 @@
             "name": "Number",
             "scope": "constant.numeric",
             "settings": {
-                "foreground": "#AE81FF"
+                "foreground": "#d177fa"
             }
         },
         {
             "name": "Built-in constant",
             "scope": "constant.language",
             "settings": {
-                "foreground": "#AE81FF"
+                "foreground": "#d177fa"
             }
         },
         {
             "name": "User-defined constant",
             "scope": "constant.character, constant.other",
             "settings": {
-                "foreground": "#AE81FF"
+                "foreground": "#d177fa"
             }
         },
         {
@@ -420,7 +422,7 @@
             "name": "Markdown Link Title/Description",
             "scope": "string.other.link.title.markdown,string.other.link.description.markdown",
             "settings": {
-                "foreground": "#AE81FF"
+                "foreground": "#d177fa"
             }
         },
         {
@@ -508,6 +510,7 @@
     ],
     "semanticTokenColors": {
         "property.declaration.static": "#FD971F",
-        "property.static": "#FD971F"
+        "property.static": "#FD971F",
+        "enumMember": "#d177fa"
     }
 }
