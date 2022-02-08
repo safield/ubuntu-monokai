@@ -11,13 +11,13 @@
         "editor.inactiveSelectionBackground": "#613120", // Color of the selection in an inactive editor. The color must not be opaque so as not to hide underlying decorations.
         "editor.selectionHighlightBackground": "#9b3e1daa",
         "editor.findMatchBackground":"#893619",
-        "editor.findMatchHighlightBackground":"#893619",
-        "editor.findMatchHighlightBorder":"#d84113",
+        "editor.findMatchHighlightBackground":"#722e16",
+        "editor.findMatchHighlightBorder":"#bb3d16",
         "editor.findMatchBorder":"#ff9575",
         "minimap.selectionHighlight": "#b94000",
         "editor.wordHighlightBackground": "#ff7700",
         "editor.wordHighlightStrongBackground": "#ff7700",
-        "editor.lineHighlightBackground": "#424242",
+        "editor.lineHighlightBackground": "#3c3c3c",
         "editorLineNumber.activeForeground": "#d4d4d4",
         "editorLineNumber.foreground": "#777777",
         "editorCursor.foreground": "#df4a16",
@@ -88,7 +88,7 @@
         "editorOverviewRuler.infoForeground": "#cf2742",
         "focusBorder": "#cf2742",
         "badge.background":"#cf2742",
-        "selection.background": "#af233a88",
+        "selection.background": "#484848", // the color of the non editor selection background like the search box
 
         // this is the colors for the command pallete and sidebar selected item
         "list.hoverBackground": "#484848",
@@ -103,7 +103,7 @@
         "editorSuggestWidget.selectedBackground": "#484848", // the color of the active code completion entry
         "editorSuggestWidget.highlightForeground": "#e0506f", // the color of code completion popup text hints. Make theis match list.highlightForeground" but maybe a little brighter and contrasting since the text is small
 
-        "dropdown.background": "#47242a",
+        "dropdown.background": "#222222",
         "quickInputList.focusBackground": "#484848", // the background of command pallete selection
         // "list.dropBackground": "#cf2742",
         // "editorGroup.dropBackground": "#41433980",co
