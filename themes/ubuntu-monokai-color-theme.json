@@ -89,7 +89,7 @@
         "editorOverviewRuler.infoForeground": "#cf2742",
         "focusBorder": "#cf2742",
         "badge.background":"#cf2742",
-        "selection.background": "#484848", // the color of the non editor selection background like the search box
+        "selection.background": "#893619", // the color of the non editor selection background like the search box
 
         // this is the colors for the command pallete and sidebar selected item
         "list.hoverBackground": "#484848",
