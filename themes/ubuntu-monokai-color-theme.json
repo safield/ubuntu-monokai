@@ -311,13 +311,6 @@
             }
         },
         {
-            "name": "JSON String",
-            "scope": "meta.structure.dictionary.json string.quoted.double.json",
-            "settings": {
-                "foreground": "#CFCFC2"
-            }
-        },
-        {
             "name": "diff.header",
             "scope": "meta.diff, meta.diff.header",
             "settings": {
@@ -501,21 +494,25 @@
             "name": "Storage type",
             "scope": [
                 "storage.type.annotation.dart",
-                "support.type",
                 "storage.type.annotation",
                 "punctuation.definition.annotation"
-                // "storage.type.annotation.java",
-                // "storage.type.annotation.groovy",
             ],
             "settings": {
                 "fontStyle": "italic",
                 "foreground": "#FD971F"
             }
         },
+        {
+            "scope": "support.type.jsonc",
+            "settings": {
+                "foreground": "#b267e6"
+            }
+        },
     ],
     "semanticTokenColors": {
         "property.declaration.static": "#FD971F",
         "property.static": "#FD971F",
-        "enumMember": "#d177fa"
+        "enumMember": "#d177fa",
+        "annotation": "#FD971F"
     }
 }
