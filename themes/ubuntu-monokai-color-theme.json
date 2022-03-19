@@ -134,7 +134,7 @@
                 "meta.return-type",
                 "support.class",
                 "support.type",
-                // "entity.name.type", // removed so dart annotations like @override are all one color. Not sure what this breaks
+                "entity.name.type", // things like enum names
                 "entity.name.namespace",
                 "entity.other.attribute",
                 "entity.name.scope-resolution",
@@ -151,7 +151,7 @@
                 "storage.type.modifier.cs",
                 "storage.type.variable.cs",
                 "storage.type.generic.java",
-                "variable.other.object.java", // references to java interfaces
+                // "variable.other.object.java", // references to java interfaces (remove this otherwise it colors variables that have method references this color eg myVar.foo() myVar would be blue)
                 "variable.other.object.property.java", // for referencing enums
                 "storage.type.java",
                 "storage.type.object.array.java",
