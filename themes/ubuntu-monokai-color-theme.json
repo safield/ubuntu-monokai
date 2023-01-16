@@ -84,6 +84,11 @@
 
         "descriptionForeground":"#cf2742",
         "editorHint.foreground":"#cf2742",
+
+        // editor inlay stuff affects the color of the java extensions named parameter hints
+        "editorInlayHint.parameterBackground":"#cf274200",
+        "editorInlayHint.foreground": "#777777",
+
         "statusBarItem.remoteBackground": "#cf2742",
         "activityBarBadge.background": "#cf2742",
         "editorOverviewRuler.infoForeground": "#cf2742",
