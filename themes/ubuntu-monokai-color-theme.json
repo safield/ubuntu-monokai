@@ -83,7 +83,9 @@
         "terminal.ansiBrightWhite": "#f8f8f2",
 
         "descriptionForeground":"#cf2742",
-        "editorHint.foreground":"#cf2742",
+        "editorHint.foreground":"#2aff9e", // this is the color of the three dots elipsis that show under code that has suggestions
+        // hide this by match editor.background
+        "editorHint.border":"#282828", // this is 4 additional dots under the intial three dots of editorHint.foreground
 
         // editor inlay stuff affects the color of the java extensions named parameter hints
         "editorInlayHint.parameterBackground":"#cf274200",
